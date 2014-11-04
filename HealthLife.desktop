@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=HealthLife
+Exec=HealthLife
+Name=跟我学做菜
+# translation example:
+# your app name in German locale (de)
+Name[de]=CookwithMe
+
