@@ -34,22 +34,29 @@ import Sailfish.Silica 1.0
 CoverBackground {
     Label {
         id: label
-        anchors.centerIn: parent.left
+        //anchors.centerIn: parent.left
+
+
+        Image{
+            x:label.width/2+30
+            y:label.height/2+50
+            source:"../img/cover.png"
+            fillMode: Image.PreserveAspectFit;
+            width:  implicitWidth
+            height: implicitWidth
+
+        }
         Row {
             id: title
+            y:250
             width: parent.width
-            anchors.fill:parent
+             Text { text: "  "; color: "#EFCD03"; font.pixelSize: 35 }
             Text { text: "跟"; color: "#FEBA02"; font.pixelSize: 35 }
             Text { text: "我"; color: "#028CBB"; font.pixelSize: 35 }
             Text { text: "学"; color: "#ea2c81"; font.pixelSize: 35 }
             Text { text: "做"; color: "#c0bc01"; font.pixelSize: 35 }
             Text { text: "菜"; color: "#76a1d6"; font.pixelSize: 35 }
             Text { text: "吧"; color: "#d491c5"; font.pixelSize: 35 }
-        }
-
-        Image{
-            source:"../img/about.png"
-
         }
     }
 

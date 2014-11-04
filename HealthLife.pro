@@ -33,6 +33,7 @@ OTHER_FILES += qml/HealthLife.qml \
     qml/pages/FoodClass.qml \
     qml/img/foodclass.png \
     qml/img/*.png \
+    qml/img/cover.png\
     qml/pages/SearchFood.qml \
     qml/pages/search.js \
     qml/pages/foodclass.js
